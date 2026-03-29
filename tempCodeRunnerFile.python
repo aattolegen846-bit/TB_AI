@@ -1,0 +1,7 @@
+arr=list(map(int,input().split()))
+sum_1=0
+for i in arr:
+    if i<0:
+        break
+    sum_1+=i
+print(sum_1)
